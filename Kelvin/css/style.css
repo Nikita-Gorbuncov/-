@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/* Header */
+
+.container {
+    max-width: 1230px;
+    /* Отступы по краям */
+    padding: 0 30px;
+    /* Выравниваем по центру */
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #F1F1F1;
+    padding-top: 46px;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 76px;
+}
+
+.logo {
+    position: relative;
+    padding: 0 12px 3px 0;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1;
+    color: #000;
+}
+
+/* Create point */
+
+.logo::after {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    content: '';
+    display: block;
+    width: 8px;
+    height: 8px;
+    background-color: #FDA300;
+    border-radius: 50%;
+}
+
+/* nav */
+
+.nav {}
+
+.nav-list {
+    display: flex;
+    column-gap: 50px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+
+.nav-button{
+    display: none;
+}
+
+
+.nav-item {}
+
+
+.nav-link {
+    color: #000;
+}
+
+
+.nav-link.active {
+    column-rule-color: #606060;
+}
+
+
+/* content */
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+
+
+.header-heading {
+    font-weight: 600;
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+
+
+.header-content p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 200%;
+}
+
+
+.header-content {
+    max-width: 500px;
+    margin-top: 124px;
+}
+
+
+/* Service */
+
+.service {
+    padding: 90px 0;
+
+}
+
+
+.service-row {
+    display: flex;
+    column-gap: 30px;
+    flex-wrap: wrap;
+    
+}
+
+
+.service-card {
+    margin-top: 90px;
+    padding-bottom: 90px;
+    /* чтобы каждый столбик был одинаков прри масштабировании */
+    flex: 1 1 0;
+    min-width: 315px;
+}
+
+
+.service-card p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 200%;
+}
+
+
+.service-card-img {
+    margin-bottom: 30px;
+}
+
+
+.service-card-title {
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+
+.portfolio {
+    background-color: #F1F1F1;
+    padding: 90px 0;
+}
+
+
+.container {}
+
+
+.portfolio-title {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+
+.portfolio-title {
+    font-weight: 600;
+    font-size: 34px;
+}
+
+
+.title-1 {}
+
+
+.project {
+    text-align: center;
+}
+
+.project-img {
+    margin-bottom: 40px;
+    margin-top: 80px;
+}
+
+
+.project-title {
+    text-decoration: underline;
+}
+
+
+.project-title a {
+    color: #000;
+}
+
+
+/* footer */
+.contacts {
+    padding: 90px 0;
+    text-align: center;
+    
+}
+
+
+.container {}
+
+
+.contacts-title {
+    font-weight: 600;
+    font-size: 34px;
+    line-height: auto;
+    margin-bottom: 40px;
+}
+
+.title-1 {}
+
+
+.contacts-content {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: auto;
+    margin-bottom: 40px;
+}
+
+
+.contacts-button {
+    margin-bottom: 80px;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 7px 22px;
+    font-size: 18px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 30px;
+    transition: background-color 0.2s ease-in, top 0.2s ease;
+}
+
+
+.btn:hover{
+background-color: #282525;
+}
+
+
+/* Во время когда она будет нажата */
+.btn:active{
+    position: relative;
+    /* будет уходить чутка вниз во времч нажатия */
+    top: 1px;
+    background-color: #000;
+}
+
+
+.contacts-sicial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 60px;
+    margin-bottom: 40px;
+}
+
+
+.contacts-footer {
+    color: #828282;
+}
